@@ -1,0 +1,216 @@
+* {
+    margin: 1px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    background-color: white;
+}
+
+header {
+    top: 0;
+    position: sticky;
+}
+
+.Projet {
+    width: 180px;
+    height: 60px;
+    margin-top: 40px;
+    background-color: rgb(79, 180, 226);
+    font-size: 35px;
+    border-color: bisque;
+    border: 5px;
+}
+
+.formations {
+    width: 210px;
+    height: 60px;
+    margin-top: 40px;
+    background-color: rgb(79, 180, 226);
+    font-size: 35px;
+    border-color: bisque;
+    border: 5px;
+}
+
+.beneficiaires {
+    width: 235px;
+    height: 60px;
+    margin-top: 40px;
+    background-color: rgb(79, 180, 226);
+    font-size: 35px;
+    border-color: bisque;
+    border: 5px;
+}
+
+.temoignages {
+    width: 245px;
+    height: 60px;
+    margin-top: 40px;
+    background-color: rgb(79, 180, 226);
+    font-size: 35px;
+    border-color: bisque;
+    border: 5px;
+}
+
+.espace {
+    width: 90px;
+}
+
+.search {
+    margin-top: 50px;
+}
+
+.logoh {
+    width: 200px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.carou {
+    width: 1350px;
+    height: 500px;
+}
+
+
+.obj-cible {
+    width: 100%;
+    height: 90vh;
+    margin-right: 10px;
+    background-color: rgb(21, 197, 197);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.objectif {
+    width: 1325px;
+    height: 48%;
+    background-color: white;
+    font: size 49px;
+    margin: 15px;
+}
+
+.cible {
+    width: 1325px;
+    height: 45%;
+    background-color: white;
+    font: size 50px;
+    margin: 15px;
+}
+
+.obj {
+    align-content: center;
+    font-size: 50px;
+    color: rgb(214, 28, 28);
+
+    -webkit-text-stroke: 1px rgb(10, 10, 12);
+}
+
+.obj-txt {
+    font-size: 40px;
+}
+
+.chiffres {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.QQC {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color:"";
+    gap:10px;
+}
+
+.chiffre1 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.ccq{font-size: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 50%;
+    margin-left: 20px;
+    }
+.ccq::after{
+    content: "";
+  width: 100%;
+  height: 4px;
+  background-color:yellow;
+}
+
+.ccq1{font-size: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 50%;
+    margin-left: 20px;
+    }
+.ccq1::after{
+    content: "";
+  width: 100%;
+  height: 4px;
+  background-color:rgb(14, 126, 33);}
+
+  .ccq2{font-size: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 50%;
+    margin-left: 20px;
+    }
+.ccq2::after{
+    content: "";
+  width: 100%;
+  height: 4px;
+  background-color:rgb(95, 36, 72);}
+
+  .ccq3{font-size: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 50%;
+    margin-left: 20px;
+    }
+.ccq3::after{
+    content: "";
+  width: 100%;
+  height: 4px;
+  background-color:rgb(235, 22, 22);}
+
+
+  .ccq4{font-size: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 50%;
+    margin-left: 20px;
+    }
+.ccq4::after{
+    content: "";
+  width: 100%;
+  height: 4px;
+  background-color:rgb(96, 136, 247);}
+.actualites{
+    width: 100px; height: 100px;
+    background-color: blueviolet;}
