@@ -1,18 +1,17 @@
-* {
-    margin: 1px;
-    padding: 0px;
-}
+*{margin: 0;
+ padding: 0;}
 
 body {
+    width:100%;
     background-color: white;
-}
+   }
 
 nav {
     left: 0;
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 2em;
     align-items: center;
     background-color: white;
 }
@@ -24,8 +23,7 @@ header {
 
 .Projet {
     width: 180px;
-    height: 60px;
-    margin-top: 40px;
+    height: auto;
     background-color: rgb(79, 180, 226);
     font-size: 35px;
     border-color: bisque;
@@ -33,9 +31,8 @@ header {
 }
 
 .formations {
-    width: 210px;
-    height: 60px;
-    margin-top: 40px;
+    width: 100%;
+    height: auto;
     background-color: rgb(79, 180, 226);
     font-size: 35px;
     border-color: bisque;
@@ -43,9 +40,8 @@ header {
 }
 
 .beneficiaires {
-    width: 235px;
-    height: 60px;
-    margin-top: 40px;
+    width: 100%;
+    height:auto;
     background-color: rgb(79, 180, 226);
     font-size: 35px;
     border-color: bisque;
@@ -53,31 +49,22 @@ header {
 }
 
 .temoignages {
-    width: 245px;
-    height: 60px;
-    margin-top: 40px;
+    width:100%;
+    height: auto;
     background-color: rgb(79, 180, 226);
     font-size: 35px;
     border-color: bisque;
     border: 5px;
 }
 
-.espace {
-    width: 90px;
-}
-
-.search {
-    margin-top: 50px;
-}
-
 .logoh {
-    width: 200px;
+    width: 100%;
     height: 150px;
     margin-top: 5px;
 }
 
 .carou {
-    width: 1350px;
+    width: 100%;
     height: 500px;
 }
 
@@ -93,7 +80,7 @@ header {
 }
 
 .objectif {
-    width: 1325px;
+    width: 100%;
     height: 48%;
     background-color: white;
     font: size 49px;
@@ -101,7 +88,7 @@ header {
 }
 
 .cible {
-    width: 1325px;
+    width: 100%;
     height: 45%;
     background-color: white;
     font: size 50px;
@@ -122,7 +109,7 @@ header {
 
 .chiffres{
     width: 100%;
-    height: 300px;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -157,7 +144,7 @@ header {
 
 .ccq::after {
     content: "";
-    width: 100%;
+    width: 50%;
     height: 4px;
     background-color: yellow;
 }
@@ -173,7 +160,7 @@ header {
 
 .ccq1::after {
     content: "";
-    width: 100%;
+    width: 50%;
     height: 4px;
     background-color: rgb(14, 126, 33);
 }
@@ -189,7 +176,7 @@ header {
 
 .ccq2::after {
     content: "";
-    width: 100%;
+    width: 50%;
     height: 4px;
     background-color: rgb(95, 36, 72);
 }
@@ -205,7 +192,7 @@ header {
 
 .ccq3::after {
     content: "";
-    width: 100%;
+    width: 50%;
     height: 4px;
     background-color: rgb(235, 22, 22);
 }
@@ -222,22 +209,20 @@ header {
 
 .ccq4::after {
     content: "";
-    width: 100%;
+    width: 50%;
     height: 4px;
     background-color: rgb(96, 136, 247);
 }
 
 .actualites{
     width: 100%;
-    height: 300px;
+    height:auto;
     background-color: blueviolet;
     display:flex;
     flex-direction: row;
    align-self: center;
    justify-content: center;
    gap: 10px;
-   margin-right: 10px;
-   margin-left: 10px;
 }
 
 
@@ -259,7 +244,8 @@ header {
 }
 .cas{
     width: 100%;
-    height: 600px;
+    height: auto;
+    margin-top: 2em; margin-bottom: 2em;
     background-color: white;
     display:flex;
     flex-direction: column;
@@ -268,7 +254,7 @@ header {
 
 .contact{
     width: 200px;
-    height:60px;
+    height:auto;
     align-self: center;
     background-color: rgb(0, 0, 255);
     color:black ;
@@ -281,6 +267,7 @@ header {
 form {
     display: flex;
     flex-direction: column;
+    -ms-flex-align: center;
     max-width: 500px;
     margin: 0 auto;
     margin-top: 50px;
@@ -324,7 +311,7 @@ form {
 
 footer{
     background-color: black;
-    width:100%; height: 150px;
+    width:99%; height: auto;
     display:flex;
     padding: 30px;
     gap: 200px;
@@ -351,3 +338,4 @@ footer{
 
 .foot-logo{border-radius: 70px;}
 .foot-button{margin-top: 70px;} 
+
